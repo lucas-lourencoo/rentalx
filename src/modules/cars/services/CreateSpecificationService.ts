@@ -6,6 +6,7 @@ interface IRequest {
 }
 
 class CreateSpecificationService {
+  // eslint-disable-next-line prettier/prettier
   constructor(private specificationsRepository: ISpecificationsRepository) { }
 
   execute({ name, description }: IRequest): void {
